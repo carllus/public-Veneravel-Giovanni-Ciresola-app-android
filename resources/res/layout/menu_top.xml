@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="87dp"
+    android:layout_alignParentRight="true"
+    android:orientation="vertical"
+    android:gravity="right"
+    android:weightSum="10"
+    >
+
+    <TextView
+        android:id="@+id/titulo"
+        android:text="@string/page_mensagem_do_padre"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal"
+        android:gravity="right"
+        android:weightSum="10"
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="55dp"
+            android:orientation="horizontal"
+            android:layout_weight="5"
+            android:gravity="center"
+            >
+
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="55dp"
+                android:layout_margin="5dp"
+
+                android:id="@+id/url_img01" />
+
+
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="55dp"
+                android:layout_margin="5dp"
+
+                android:id="@+id/url_img02" />
+
+<!--
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="55dp"
+                android:layout_margin="5dp"
+
+                android:id="@+id/url_img03" />
+                -->
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="55dp"
+            android:orientation="horizontal"
+            android:layout_weight="5"
+            android:gravity="right"
+            >
+            <Button
+                android:id="@+id/btnMenor"
+                android:background="@drawable/diminuir_fonte"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_margin="2dp" />
+
+            <Button
+                android:id="@+id/btnMaior"
+                android:background="@drawable/aumentar_fonte"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_margin="2dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

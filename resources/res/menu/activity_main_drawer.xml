@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/mensagem"
+            android:icon="@drawable/ic_book"
+            android:title="@string/page_mensagem_do_padre" />
+        <item
+            android:id="@+id/mensagens_favoritas"
+            android:icon="@drawable/ic_book"
+            android:title="@string/page_mensagens_favoritas" />
+        <item
+            android:id="@+id/biografia"
+            android:icon="@android:drawable/ic_menu_sort_by_size"
+            android:title="@string/page_biografia_do_padre" />
+
+        <!--
+        <item
+            android:id="@+id/canonizacao"
+            android:icon="@android:drawable/ic_menu_sort_by_size"
+            android:title="@string/page_canonizacao" /> -->
+        <item
+            android:id="@+id/oracao"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="@string/page_oracao" />
+        <item
+            android:id="@+id/irmas"
+            android:icon="@drawable/icon_calice"
+            android:title="@string/page_irmas" />
+        <item
+            android:id="@+id/irmas_externas"
+            android:icon="@drawable/icon_calice"
+            android:title="@string/page_irmas_externas" />
+        <item
+            android:id="@+id/cenaculo"
+            android:icon="@drawable/ic_church"
+            android:title="@string/page_cenaculo" />
+        <item
+            android:id="@+id/amigoscenaculo"
+            android:icon="@drawable/ic_supervisor_account_black_24dp"
+            android:title="@string/page_amigos_do_cenaculo" />
+        <item
+            android:id="@+id/contato"
+            android:icon="@drawable/ic_pin_drop_black_24dp"
+            android:title="@string/page_contato" />
+        <item
+            android:id="@+id/videos"
+            android:icon="@drawable/ic_pin_drop_black_24dp"
+            android:title="@string/page_videos" />
+    </group>
+
+    <!--
+    <item android:title="Item">
+        <menu>
+            <item
+                android:id="@+id/item_sub1"
+                android:icon="@drawable/ic_menu_share"
+                android:title="sub item 1" />
+            <item
+                android:id="@+id/item_sub2"
+                android:icon="@drawable/ic_menu_send"
+                android:title="sub item 2" />
+        </menu>
+    </item>
+    -->
+</menu>

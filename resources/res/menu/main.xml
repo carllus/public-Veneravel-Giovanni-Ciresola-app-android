@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_mensagem"
+        android:orderInCategory="100"
+        android:title="@string/page_mensagem_do_padre"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_oracao"
+        android:orderInCategory="100"
+        android:title="@string/page_oracao"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_contato"
+        android:orderInCategory="100"
+        android:title="@string/page_contato"
+        app:showAsAction="never" />
+</menu>
